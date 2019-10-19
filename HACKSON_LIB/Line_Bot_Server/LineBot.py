@@ -10,14 +10,16 @@ from linebot.exceptions import (
 from linebot.models import (
     MessageEvent, TextMessage, )
 
-import DataBase.DB_apps as DB
+import Data_analy as data
+from DataBase.DB_apps import DB
 
-
+# import
+DB = DB()
 
 app = Flask(__name__)
 
 
-file=open("text.txt","a")
+
 
 CHANNEL_ACCESS_TOKEN="3iBqJ7ksu2x9V9UPKCwuF0ehKxDb179IPMnQfjmHEiXS8wfssR0KArebG4ejuCntaa8JWWk4IErucKC5tns1gqWag9ockxqjLtMffrVZzgwxwm7VDy7IYdTCq8Vj9nDlasp6TclYX0f5Bwe+YDVYkAdB04t89/1O/w1cDnyilFU="
 CHANNEL_SECRET="2afd619d959438ef78d81efc81f4d354"
@@ -75,6 +77,20 @@ def get_today_Weather(**kwargs)->str:
 
 @handler.add(MessageEvent, message=TextMessage)
 def handle_message(event):
+    # group か　個人かを判定
+    isGroup = (event.source.type == "group")
+    print(isGroup)
+    print(event)
+
+    if isGroup:
+        msg_t = str(event.message.text)
+        # リクエストか
+        if msg_t in ["リクエスト", "バルス"]:
+
+
+
+
+
     msg_t = str(event.message.text)
     #print(msg_t)
     # print(type(event))
@@ -94,7 +110,9 @@ def handle_message(event):
     
     user=LineUser(userId=user_id)
     DB.set_new_user(user_id,user.name)
-    DB.set_talk_history(user_id,text=msg_t)
+    words = data.analy(msg_t)
+    DB.set_talk_history(user_id, text=words)
+
     # LineSender(line_bot_api).sendMessage(str(user),user)
 
 
@@ -171,11 +189,12 @@ class LineSender:
 if __name__ == "__main__":
     q = start()
 
-    # app.run(debug=True, host='0.0.0.0', port=5000)
-    userId="U8c8b0e06213c94bc4c7f42cac57cf1a7"
-    user=LineUser(userId=userId)
-    sender=LineSender(line_bot_api)
+    # # app.run(debug=True, host='0.0.0.0', port=5000)
+    # userId="U8c8b0e06213c94bc4c7f42cac57cf1a7"
+    # user=LineUser(userId=userId)
+    # sender=LineSender(line_bot_api)
 
-    # while 1:
+    while 1:
     #     sender.sendMessage(text=str(user),user_id=user)
-
+    #
+    pass
