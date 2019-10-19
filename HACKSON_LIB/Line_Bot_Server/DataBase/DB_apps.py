@@ -10,7 +10,6 @@ TALK_DB_FILE = os.path.join(os.path.dirname(__file__), "talk.db")
 ## make file 
 mkflg = not (os.path.exists(USER_ID_DB_FILE_NAME))
 
-
 class DB:
     ## Load FIle
     user_con = sqlite3.connect(USER_ID_DB_FILE_NAME, check_same_thread=False)
@@ -27,9 +26,10 @@ class DB:
             talk.db:: talk_his_table(user_id,text,date)
             // data is unixtime.
             '''
+            print("DB is　MADE")
 
             DB.user_cur.execute("create table user_table(user_id text primary key,name text,date integer)")
-            DB.talk_cur.execute("create table talk_his_table(user_id text primary key,text text,date integer)")
+            DB.talk_cur.execute("create table talk_his_table(user_id text,text text,date integer)")
 
             DB.user_con.commit()
             DB.talk_con.commit()
@@ -55,9 +55,12 @@ class DB:
         return (DB.talk_cur.fetchall())
 
     def get_talk_his_table_from_userId(self, userId) -> list:
-        cmd = f"select * from talk_his_table where use_id={userId}"
+        cmd = f"select text from talk_his_table where user_id = '{userId}'"
         DB.talk_cur.execute(cmd)
-        return DB.talk_cur.fetchall()
+        dblist = DB.talk_cur.fetchall()
+        print(dblist)
+        a = [i[0] for i in dblist if i[0] is not None]
+        return ",".join(a)
 
 if __name__ == "__main__":
     # set_new_user("test","testuser")

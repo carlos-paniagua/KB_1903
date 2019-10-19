@@ -7,10 +7,12 @@ Original file is located at
     https://colab.research.google.com/drive/1V87NfQBkIQRm30-a-uVjKm-MXaqTNJTj
 """
 
-!pip install requests
+# !pip install requests
+
+import json
 
 import requests as req
-import json
+
 header={"Content-Type":"application/json"}
 
 

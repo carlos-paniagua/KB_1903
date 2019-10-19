@@ -26,7 +26,7 @@ CHANNEL_SECRET="2afd619d959438ef78d81efc81f4d354"
 
 line_bot_api = LineBotApi(CHANNEL_ACCESS_TOKEN)
 handler = WebhookHandler(CHANNEL_SECRET)
-
+GropeDict = {}
 import queue
 
 q = queue.Queue()
@@ -81,13 +81,37 @@ def handle_message(event):
     isGroup = (event.source.type == "group")
     print(isGroup)
     print(event)
-
+    user_id = event.source.user_id
     if isGroup:
         msg_t = str(event.message.text)
+        GroupId = event.source.group_id
+
+        global GropeDict
+        try:
+            GropeDict[GroupId] += [user_id]
+            GropeDict[GroupId] = list(set(GropeDict[GroupId]))
+
+        except:
+            GropeDict[GroupId] = [user_id]
+
         # リクエストか
         if msg_t in ["リクエスト", "バルス"]:
 
+            GroupId = event.source.group_id
+            print(GroupId)
+            # グループの各ユーザIDを取得
+            #     users=line_bot_api.get_group_member_ids(GroupId)
+            ##現在把握している（発言した）ユーザの趣向を出す。
+            # print(type(users),users)
+            userhobby = []
+            ##DBに一人のユーザ趣向を問い合わせ
+            for u in GropeDict[GroupId]:
+                userhobby.append(DB.get_talk_his_table_from_userId(u))
 
+            userhobby = list(set(userhobby))
+            print("userhobby::", userhobby)
+            userhobby = ",".join(userhobby)
+            LineSender(line_bot_api).sendMessage(text=userhobby, user_id=GroupId)
 
 
 
@@ -103,24 +127,24 @@ def handle_message(event):
 
     # msg = TextMessage(text=f"name::{profile.display_name}\n"
     # f"status_message::{status}")
-    weather,max_temp,min_temp=get_today_Weather()
-    msg=f"今日の天気は,{weather}\n" \
-        f"最高気温は{max_temp}℃です。\n" \
-        f"最低気温は{min_temp}℃です." \
-    
+    # weather,max_temp,min_temp=get_today_Weather()
+    # msg=f"今日の天気は,{weather}\n" \
+    #     f"最高気温は{max_temp}℃です。\n" \
+    #     f"最低気温は{min_temp}℃です." \
+
     user=LineUser(userId=user_id)
     DB.set_new_user(user_id,user.name)
     words = data.analy(msg_t)
     DB.set_talk_history(user_id, text=words)
-
+    msg = "DBに保存しました"
     # LineSender(line_bot_api).sendMessage(str(user),user)
 
 
     msg_t=TextMessage(text=msg)
-    msg2=TextMessage(text=str(user))
+    # msg2=TextMessage(text=str(user))
     # for r in range(10):
     line_bot_api.push_message(user_id, msg_t)
-    line_bot_api.push_message(user_id, msg2)
+    # line_bot_api.push_message(user_id, msg2)
     # line_bot_api.push_message(user_id, msg_t)
 
 
