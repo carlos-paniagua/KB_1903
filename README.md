@@ -37,7 +37,7 @@ LINEで上記の課題を解決できるように作成しました
       入力内容からできるだけ一致する内容を探します
    ####  3. 特長3
        初対面の人との会話が弾むよう趣味が記載した電子名刺を作成
-       ![名刺画像](http://i.imgur.com/Jjwsc.jpg "サンプル")
+       ![名刺画像](https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F.png)
 
 ---
 
