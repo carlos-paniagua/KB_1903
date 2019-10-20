@@ -39,6 +39,9 @@ LINEで上記の課題を解決できるように作成しました
 <p align="center">
 <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
 </p>
+<p align="center">
+名刺例
+</p>
 ---
 
 ### 解決出来ること
