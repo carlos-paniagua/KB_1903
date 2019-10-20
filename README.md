@@ -38,7 +38,7 @@ LINEで上記の課題を解決できるように作成しました
 初対面の人との会話が弾むよう趣味が記載した電子名刺を作成
 
 <p align="center">
-<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F.png">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F.png" alt="名刺" width="300" height="200">
 </p>
 
       
