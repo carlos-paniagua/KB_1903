@@ -46,8 +46,8 @@ LINEで上記の課題を解決できるように作成しました
 <p align="center">
 <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BApc.png" alt="名刺pc" width="400">    <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BAsmart.png" alt="名刺smart" width="300">
 </p>
-<p align="center">
-名刺パソコン版           　　　　名刺スマホ版         
+<p>
+　　　　　　　　　名刺パソコン版           　　　　　　　　　　　　名刺スマホ版         
 </p>
 
 ---
