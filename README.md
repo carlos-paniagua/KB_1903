@@ -1,7 +1,7 @@
 # F.M.T (First Meeting Topic)  
 
 <p align="center">
-<img src="" alt="ロゴ" width="1000">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT_logo.png" alt="ロゴ" width="1000">
 </p>  
 
 ---
@@ -24,10 +24,10 @@ LINEBotがグループの趣味を自動的に分析し、最適な話のネタ�
 __F.M.Tで最高のLINEトーク&名刺交換を楽しみましょう!__　　
 
 <p align="center">
-<img src="" alt="解説1" width="700">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC1.png" alt="解説1" width="700">
 </p>
 <p align="center">
-<img src="" alt="解説2" width="700">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC2.png" alt="解説2" width="700">
 </p>
 
 
@@ -46,10 +46,10 @@ LINEで上記の課題を解決できるように作成しました
 パソコン,スマホに対応させました
 
 <p align="center">
-<img src="" alt="名刺pc" width="500">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BApc.png" alt="名刺pc" width="500">
 </p>
 <p align="center">
-<img src="" alt="名刺smart" width="500">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BAsmart.png" alt="名刺smart" width="500">
 </p>
 <p align="center">
 名刺の例
