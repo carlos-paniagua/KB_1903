@@ -2,7 +2,7 @@
 
 
 <p align="center">
-<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT_logopptx.png" alt="ロゴ" width="1000">
 </p>  
 
 [![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)  
