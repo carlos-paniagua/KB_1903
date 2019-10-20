@@ -7,7 +7,7 @@
 ---
 
 ### 製品概要
-__communication X Tech__
+## __communication X Tech__
 
 ---
 ### 背景
