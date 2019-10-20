@@ -3,7 +3,7 @@
 [![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)
 
 ### 製品概要
-##communication X Tech
+## communication X Tech
 
 ### 背景（製品開発のきっかけ、課題等）
 ・授業等で初対面の人たちとチームを組む際に話のネタが思いつかない...  
