@@ -1,6 +1,9 @@
 # F.M.T (First Meeting Topic)
 
 
+<p align="center">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
+</p>  
 
 [![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)  
 
