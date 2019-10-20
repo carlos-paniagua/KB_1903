@@ -21,7 +21,11 @@
 それなら __F.M.T(First Meeting Topic)__ をお使いください!  
 LINEBotがグループの趣味を自動的に分析し、最適な話のネタを __提供__ してくれます!  
 さらに、twitterと連携し趣味が記載した __電子名刺__ を自動作成!  
-__F.M.Tで最高のLINEトーク&名刺交換を楽しみましょう!__  
+__F.M.Tで最高のLINEトーク&名刺交換を楽しみましょう!__　　
+
+<p align="center">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
+</p>
 
 ---
 
