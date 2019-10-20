@@ -39,10 +39,6 @@ LINEで上記の課題を解決できるように作成しました
 <p align="center">
 <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
 </p>
-
-      
-      
-
 ---
 
 ### 解決出来ること
@@ -52,7 +48,8 @@ LINEで上記の課題を解決できるように作成しました
 ---
 
 ### 今後の展望
-
+AI,機械学習を使いさらに高性能なLINEBotを作成する  
+ 
 ---
 
 ## 開発内容・開発技術
@@ -62,7 +59,10 @@ LINEで上記の課題を解決できるように作成しました
 * Docomo 固有表現抽出API
 
 #### フレームワーク・ライブラリ・モジュール
-* 
+* requests  
+* pickle  
+* re  
+* random  
 
 #### デバイス
 * Raspberry Pi
