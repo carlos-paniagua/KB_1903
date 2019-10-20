@@ -1,7 +1,7 @@
 # F.M.T (First Meeting Topic)  
 
 <p align="center">
-<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT_logo.png" alt="ロゴ" width="1000">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT%E3%83%AD%E3%82%B4.png" alt="ロゴ" width="1000">
 </p>  
 
 ---
