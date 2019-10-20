@@ -5,8 +5,6 @@
 <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT_logopptx.png" alt="ロゴ" width="1000">
 </p>  
 
-[![Product Name](image.png)](https://www.youtube.com/watch?v=G5rULR53uMk)  
-
 ---
 
 ### 製品概要
