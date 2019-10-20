@@ -24,7 +24,7 @@ LINEBotがグループの趣味を自動的に分析し、最適な話のネタ�
 __F.M.Tで最高のLINEトーク&名刺交換を楽しみましょう!__　　
 
 <p align="center">
-<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC1.png" alt="解説1" width="400"> <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC2.png" alt="解説2" width="400">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC11.png" alt="解説1" width="400"> <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E8%A7%A3%E8%AA%AC2.png" alt="解説2" width="400">
 </p>
 
 
