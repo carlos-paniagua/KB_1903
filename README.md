@@ -24,7 +24,7 @@ LINEBotがグループの趣味を自動的に分析し、最適な話のネタ�
 __F.M.Tで最高のLINEトーク&名刺交換を楽しみましょう!__　　
 
 <p align="center">
-<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/%E5%90%8D%E5%88%BA%E7%94%BB%E5%83%8F_tori.png" alt="名刺" width="500">
+<img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT%E8%A7%A3%E8%AA%AC.png" alt="解説" width="1000">
 </p>
 
 ---
