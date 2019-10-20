@@ -1,5 +1,4 @@
-# F.M.T (First Meeting Topic)
-
+# F.M.T (First Meeting Topic)  
 
 <p align="center">
 <img src="https://github.com/carlos-paniagua/KB_1903/blob/master/FMT_logopptx.png" alt="ロゴ" width="1000">
@@ -10,7 +9,6 @@
 ### 製品概要
 ## __communication X Tech__
 
----
 ### 背景
 * 授業等で初対面の人たちとチームを組む際に話のネタが思いつかない...  
 * 一部の人しか盛り上がらない話より、チーム全体で盛り上がる話がわからない...  
